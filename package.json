@@ -1,0 +1,17 @@
+{
+  "name": "funny-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "start": "npx babel-node --presets @babel/preset-env $PATH",
+    "start:realtime": "nodemon --exec node_modules/.bin/babel-node index.js"
+  }
+}
