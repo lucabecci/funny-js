@@ -17,6 +17,6 @@
   "scripts": {
     "test": "mocha --test --require @babel/register 'test/**/*.js' --grep",
     "start": "npx babel-node --presets @babel/preset-env $PATH",
-    "start:realtime": "nodemon --exec node_modules/.bin/babel-node index.js"
+    "start:realtime": "nodemon --exec node_modules/.bin/babel-node $PATH"
   }
 }
