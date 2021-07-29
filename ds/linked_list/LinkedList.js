@@ -143,7 +143,7 @@ export default class LinkedList {
     printValues(){
         let currentNode = this.head;
         while(currentNode){
-            console.log(currentNode);
+            console.log(currentNode.value);
             currentNode = currentNode.next;
         }
     }
