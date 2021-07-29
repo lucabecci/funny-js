@@ -139,6 +139,14 @@ export default class LinkedList {
         }
         return nodes;
     }
+    //print all values of the list
+    printValues(){
+        let currentNode = this.head;
+        while(currentNode){
+            console.log(currentNode);
+            currentNode = currentNode.next;
+        }
+    }
     //reverse the linked list
     reverse(){
         let currNode = this.head;
